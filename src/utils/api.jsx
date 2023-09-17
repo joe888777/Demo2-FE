@@ -1,13 +1,7 @@
 import { TARGET_URL } from '../core/setting'; 
 export const getImage = async () => {
     let data = "";
-    await fetch(TARGET_URL /*{
-        method: "GET",
-        headers: {
-            "accept": "application/json",
-            "Access-Control-Allow-Origin": ["*"]
-        }
-    }*/)
+    await fetch(TARGET_URL)
     .then(function (response) {
         return response.json();
     })
