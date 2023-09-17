@@ -1,0 +1,1 @@
+export const TARGET_URL = "http://si8a1.asuscomm.com:8000/image/";
