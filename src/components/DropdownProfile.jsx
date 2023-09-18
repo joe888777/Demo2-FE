@@ -43,10 +43,10 @@ function DropdownProfile({
         onClick={() => setDropdownOpen(!dropdownOpen)}
         aria-expanded={dropdownOpen}
       >
-        <img className="w-16 h-16 rounded-full" src={UserAvatar} width="32" height="32" alt="User" />
+        {/*<img className="w-16 h-16 rounded-full" src={UserAvatar} width="32" height="32" alt="User" />*/}
         <div className="flex items-center truncate">
-          <span className="truncate ml-2 text-sm font-medium dark:text-slate-300 group-hover:text-slate-800 dark:group-hover:text-slate-200">VisualTON</span>
-          <svg className="w-3 h-3 shrink-0 ml-1 fill-current text-slate-400" viewBox="0 0 12 12">
+          {/*<span className="truncate ml-2 text-sm font-medium dark:text-slate-300 group-hover:text-slate-800 dark:group-hover:text-slate-200">VisualTON</span>*/}
+          <svg className="w-5 h-5 shrink-0 ml-1 fill-current text-slate-400" viewBox="0 0 12 12">
             <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
           </svg>
         </div>
@@ -67,27 +67,23 @@ function DropdownProfile({
           onFocus={() => setDropdownOpen(true)}
           onBlur={() => setDropdownOpen(false)}
         >
-          <div className="pt-0.5 pb-2 px-3 mb-1 border-b border-slate-200 dark:border-slate-700">
-            <div className="font-medium text-slate-800 dark:text-slate-100">VisualTON.</div>
-            <div className="text-xs text-slate-500 dark:text-slate-400 italic">Administrator</div>
-          </div>
           <ul>
             <li>
               <Link
                 className="font-medium text-sm text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center py-1 px-3"
-                to="/settings"
+                to="/aboutVisualTON"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
-                Settings
+                About VisualTON
               </Link>
             </li>
             <li>
               <Link
                 className="font-medium text-sm text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center py-1 px-3"
-                to="/signin"
+                to="/ContactUs"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
-                Sign Out
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -98,3 +94,23 @@ function DropdownProfile({
 }
 
 export default DropdownProfile;
+
+{/*
+Hamburger button 
+<button
+className="text-slate-500 hover:text-slate-600 lg:hidden"
+aria-controls="sidebar"
+aria-expanded={sidebarOpen}
+onClick={(e) => {
+  e.stopPropagation();
+  setSidebarOpen(!sidebarOpen);
+}}
+>
+<span className="sr-only">Open sidebar</span>
+<svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="5" width="16" height="2" />
+  <rect x="4" y="11" width="16" height="2" />
+  <rect x="4" y="17" width="16" height="2" />
+</svg>
+</button>
+*/}
