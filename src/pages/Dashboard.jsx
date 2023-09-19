@@ -4,6 +4,7 @@ import Sidebar from '../partials/Sidebar';
 import Header from '../partials/Header';
 import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import DashboardCard01 from '../partials/dashboard/DashboardCard01';
+import Bars from '../partials/dashboard/Bars';
 import Footer from '../components/Footer';
 
 function Dashboard() {
@@ -24,6 +25,7 @@ function Dashboard() {
 
             {/* Welcome banner */}
             <WelcomeBanner />
+            <Bars />
 
             {/* Dashboard actions */}
             <div className="sm:flex sm:justify-between sm:items-center mb-8">

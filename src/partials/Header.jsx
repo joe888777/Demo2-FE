@@ -23,7 +23,14 @@ function Header({ sidebarOpen, setSidebarOpen }) {
 
           {/* Header: Right side */}
           <div className="flex items-center space-x-3">
-            <UserMenu align="right" />
+            <button onClick={() => alert("About VisualTON")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
+              About VisualTON
+            </button>
+            <button onClick={() => alert("Contact Us")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
+              Contact Us
+            </button>
+            <ThemeToggle />
+            {/*<UserMenu align="right" />*/}
           </div>
         </div>
       </div>

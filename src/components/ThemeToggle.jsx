@@ -11,7 +11,7 @@ export default function ThemeToggle() {
         name="light-switch"
         id="light-switch"
         className="light-switch sr-only"
-        checked={currentTheme === 'light'}
+        checked={currentTheme === 'dark'}
         onChange={() => changeCurrentTheme(currentTheme === 'light' ? 'dark' : 'light')}
       />
       <label
