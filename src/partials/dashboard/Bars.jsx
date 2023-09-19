@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function MyComponent() {
   // 使用useState来追踪滑动条的值
-  const [sliderValue, setSliderValue] = useState(50);
+  const [sliderValue, setSliderValue] = useState(100);
 
   // 处理滑动条值的变化
   const handleSliderChange = (event) => {
