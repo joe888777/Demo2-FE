@@ -11,3 +11,7 @@ export const getImage = async () => {
     });
     return data;
 }
+
+export const getNodes = (dataArray) => {
+    
+}

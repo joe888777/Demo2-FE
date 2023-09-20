@@ -5,7 +5,7 @@ import Notifications from '../components/DropdownNotifications';
 import Help from '../components/DropdownHelp';
 import UserMenu from '../components/DropdownProfile';
 import ThemeToggle from '../components/ThemeToggle';
-import UserAvatar from '../images/VisualTONlogo.png';
+import UserAvatar from '../images/visualtonlogo.png';
 
 
 function Header({ sidebarOpen, setSidebarOpen }) {
@@ -23,10 +23,10 @@ function Header({ sidebarOpen, setSidebarOpen }) {
 
           {/* Header: Right side */}
           <div className="flex items-center space-x-3">
-            <button onClick={() => alert("About VisualTON")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
+            <button onClick={() => alert("敬請期待")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
               About VisualTON
             </button>
-            <button onClick={() => alert("Contact Us")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
+            <button onClick={() => alert("不讓你聯絡勒勒勒")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
               Contact Us
             </button>
             <ThemeToggle />

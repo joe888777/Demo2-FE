@@ -6,7 +6,8 @@ import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import DashboardCard01 from '../partials/dashboard/DashboardCard01';
 import Bars from '../partials/dashboard/Bars';
 import Footer from '../components/Footer';
-
+import VisNetwork from '../components/testvis';
+import MockGraph from '../components/mockGraph';
 function Dashboard() {
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -41,7 +42,8 @@ function Dashboard() {
 
               {/* Line chart (Acme Plus) */}
               <DashboardCard01 />
-              
+              <MockGraph/>
+              <VisNetwork/>
             </div>
 
           </div>

@@ -13,7 +13,7 @@ function DashboardCard01() {
   })
   return (
     <div className='w-full bg-white flex graph'>
-    <iframe src={GRAPH_URL} frameborder="0" className='w-full'></iframe>
+    <iframe src={GRAPH_URL}  className='w-full'></iframe>
     </div>
   );
 }
