@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import {
   Routes,
   Route,
-  useLocation
+  useLocation,
 } from 'react-router-dom';
 
 import './css/style.css';
@@ -11,7 +11,12 @@ import './charts/ChartjsConfig';
 
 // Import pages
 import Dashboard from './pages/Dashboard';
-
+import MockGraph from './pages/mockGraph';
+import CurrentTransaction from './pages/CurrentTxGraph';
+import Footer from "./components/footer";
+import Header from './partials/Header';
+import WelcomeBanner from './partials/dashboard/WelcomeBanner';
+import {RecoilRoot} from 'recoil';
 function App() {
 
   const location = useLocation();
@@ -24,9 +29,17 @@ function App() {
 
   return (
     <>
+    <RecoilRoot>
+    <Header sidebarOpen={false} setSidebarOpen={()=>{}} />
+    <WelcomeBanner/>
       <Routes>
-        <Route exact path="/" element={<Dashboard />} />
+        <Route exact path="/" element={<MockGraph />} />
       </Routes>
+      <Routes>
+        <Route exact path="/current-tx" element={<CurrentTransaction />} />
+      </Routes>
+      <Footer/>
+      </RecoilRoot>
     </>
   );
 }
