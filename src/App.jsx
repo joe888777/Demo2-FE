@@ -13,7 +13,7 @@ import './charts/ChartjsConfig';
 import Dashboard from './pages/Dashboard';
 import MockGraph from './pages/mockGraph';
 import CurrentTransaction from './pages/CurrentTxGraph';
-import Footer from "./components/footer";
+import Footer from "./components/footer.jsx";
 import Header from './partials/Header';
 import WelcomeBanner from './partials/dashboard/WelcomeBanner';
 import {RecoilRoot} from 'recoil';
