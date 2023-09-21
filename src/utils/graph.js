@@ -69,7 +69,8 @@ export const getNodes = (dataArray) => {
                 color: getColor(value),
                 url: chosedDataTable["0x123"].url,
                 type: chosedDataTable["0x123"].type,
-                level: getLevel(value)
+                level: getLevel(value),
+                resolution: getLevel(value)
             });
             continue;
         }
@@ -81,7 +82,8 @@ export const getNodes = (dataArray) => {
                 color: getColor(value),
                 url: chosedDataTable["0xtest1"].url,
                 type: chosedDataTable["0xtest1"].type,
-                level: getLevel(value)
+                level: getLevel(value),
+                resolution: getLevel(value)
             });
             continue;
         }
@@ -90,7 +92,8 @@ export const getNodes = (dataArray) => {
             address: key,
             rxTimes: value,
             color: getColor(value),
-            level: getLevel(value)
+            level: getLevel(value),
+            resolution: getLevel(value)
         });
     }
     return resultArray;
