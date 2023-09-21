@@ -51,8 +51,8 @@ const TempGraph = (props) => {
     return (
         <div className='relative p-4 sm:p-6 rounded-sm overflow-hidden mr-auto ml-auto w-10/12 '>
             <div className='text-center'>
-                tx max amount: {good.tx_amount_max}<br />
-                tx min amount: {good.tx_amount_min}<br />
+                tx max amount: {good.tx_amount_max}TON<br />
+                tx min amount: {good.tx_amount_min}TON<br />
                 tx total count: {good.tx_total}<br />
                 node total count: {good.node_total}<br />
                 max receive count: {good.receive_count_max}<br />
@@ -63,7 +63,8 @@ const TempGraph = (props) => {
             linkColor={() => "aqua"}
             linkWidth={1}
             linkOpacity={1}
-            nodeLabel={node => (`${node.id}\n${node.type === "DEFI" ? "type: DEFI" : ""}\n${node.url ? "url: "+node.url : "" }`)}
+            nodeLabel={node => (`${node.id.substr(0,6)}`)}
+            nodeVal={node=>node.level*5}
             linkLabel={link => link.amount}
             linkDirectionalArrowLength={()=>2}
             linkDirectionalArrowRelPos={1}
@@ -73,6 +74,16 @@ const TempGraph = (props) => {
             ref={fgRef}
             cooldownTicks={100}
             onEngineStop={() => fgRef.current.zoomToFit(400)}
+            onNodeClick={(node) => {
+                if(node.url){
+                    window.open(node.url,"_blank")
+                } else {
+                    window.open(`https://tonviewer.com/${node.address}`, "_blank")
+                }
+            }}
+            onLinkClick={(link) => {
+                window.open(`https://tonviewer.com/transaction/${link.tx_id}`, "_blank")
+            }}
             />
         </div>
     )

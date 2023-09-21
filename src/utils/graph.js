@@ -32,6 +32,17 @@ const getColor = (rxTimes) => {
         return "white";
     }
 }
+const getLevel = (rxTimes) => {
+    if (rxTimes > 50) {
+        return 3;
+    } else if (rxTimes > 10) {
+        return 2;
+    } else if (rxTimes > 5) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
 
 export const getNodes = (dataArray) => {
     
@@ -57,7 +68,8 @@ export const getNodes = (dataArray) => {
                 rxTimes: value,
                 color: getColor(value),
                 url: chosedDataTable["0x123"].url,
-                type: chosedDataTable["0x123"].type
+                type: chosedDataTable["0x123"].type,
+                level: getLevel(value)
             });
             continue;
         }
@@ -68,7 +80,8 @@ export const getNodes = (dataArray) => {
                 rxTimes: value,
                 color: getColor(value),
                 url: chosedDataTable["0xtest1"].url,
-                type: chosedDataTable["0xtest1"].type
+                type: chosedDataTable["0xtest1"].type,
+                level: getLevel(value)
             });
             continue;
         }
@@ -77,19 +90,23 @@ export const getNodes = (dataArray) => {
             address: key,
             rxTimes: value,
             color: getColor(value),
+            level: getLevel(value)
         });
     }
-    
     return resultArray;
 }
 
 export const getEdges = (dataArray) => {
-    return dataArray.map(data => {
+    const res =  dataArray.map(data => {
         return {
             ...data,
             source: data[TX_ATTR.senderAddr],
             target: data[TX_ATTR.receiverAddr],
-            color: "yellow"
+            color: "yellow",
+            curvature: 0.8,
+            rotation: Math.PI * Math.random()
         }
-    })
+    });
+    return res;
+
 }
