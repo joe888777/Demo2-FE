@@ -23,8 +23,10 @@ function Header({ sidebarOpen, setSidebarOpen }) {
 
           {/* Header: Right side */}
           <div className="flex items-center space-x-3">
-            <Link to={"/"} className=" dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">Mock Example</Link>
+            <Link to={"/"} className=" dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">3D example</Link>
+            <Link to={"/mock-2d"}className=" dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">2D example</Link>
             <Link to={"/current-tx"}className=" dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">Current Tx</Link>
+            <Link to={"/current-tx-2d"}className=" dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">Current Tx 2D</Link>
             <button onClick={() => alert("敬請期待")}className="border border-gray-500 dark:border-white-700 text-gray-700 dark:text-[#cccccc] font-bold py-2 px-4 rounded">
               About VisualTON
             </button>

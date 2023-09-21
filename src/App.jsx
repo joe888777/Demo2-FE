@@ -10,9 +10,11 @@ import './css/style.css';
 import './charts/ChartjsConfig';
 
 // Import pages
-import Dashboard from './pages/Dashboard';
+
 import MockGraph from './pages/mockGraph';
+import MockGraph2D from './pages/mockGraph2D';
 import CurrentTransaction from './pages/CurrentTxGraph';
+import CurrentTransaction2D from './pages/CurrentTxGraph2D';
 import Footer from "./components/footer.jsx";
 import Header from './partials/Header';
 import WelcomeBanner from './partials/dashboard/WelcomeBanner';
@@ -37,6 +39,12 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path="/current-tx" element={<CurrentTransaction />} />
+      </Routes>
+      <Routes>
+        <Route exact path="/mock-2d" element={<MockGraph2D/>} />
+      </Routes>
+      <Routes>
+        <Route exact path="/current-tx-2d" element={<CurrentTransaction2D/>} />
       </Routes>
       <Footer/>
       </RecoilRoot>
