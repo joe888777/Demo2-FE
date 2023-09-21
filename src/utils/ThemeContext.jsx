@@ -1,13 +1,13 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext({
-  currentTheme: 'light',
+  currentTheme: 'dark',
   changeCurrentTheme: () => {},
 });
 
 export default function ThemeProvider({children}) {  
   const persistedTheme = localStorage.getItem('theme');
-  const [theme, setTheme] = useState(persistedTheme || 'light');
+  const [theme, setTheme] = useState(persistedTheme || 'dark');
 
   const changeCurrentTheme = (newTheme) => {
     setTheme(newTheme);
