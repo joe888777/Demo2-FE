@@ -1,3 +1,16 @@
+import { getNodeInfos } from "./api";
+const chosedDataTable = {
+    "0x123": {
+        name: 'VisualTon',
+        type: 'DEFI',
+        url: 'https://www.google.com.tw/?hl=zh_TW'
+    },
+    "0xtest1" : {
+        name: 'test1',
+        type: 'GAMEFI',
+        url: 'https://www.google.com.tw/?hl=zh_TW'
+    }
+}
 const TX_ATTR = {
     txId: "tx_id",
     blockId: "block_id",
@@ -21,8 +34,7 @@ const getColor = (rxTimes) => {
 }
 
 export const getNodes = (dataArray) => {
-    console.log("nodes");
-    console.log(dataArray);
+    
     const nodes = {};
     dataArray.forEach((data) => {
         const txId = data[TX_ATTR.senderAddr];
@@ -38,6 +50,28 @@ export const getNodes = (dataArray) => {
     });
     const resultArray = [];
     for (const [key, value] of Object.entries(nodes)) {
+        if (chosedDataTable["0x123"].name === (key)) {
+            resultArray.push({
+                id: key,
+                address: key,
+                rxTimes: value,
+                color: getColor(value),
+                url: chosedDataTable["0x123"].url,
+                type: chosedDataTable["0x123"].type
+            });
+            continue;
+        }
+        if (chosedDataTable["0xtest1"].name === (key)) {
+            resultArray.push({
+                id: key,
+                address: key,
+                rxTimes: value,
+                color: getColor(value),
+                url: chosedDataTable["0xtest1"].url,
+                type: chosedDataTable["0xtest1"].type
+            });
+            continue;
+        }
         resultArray.push({
             id: key,
             address: key,
@@ -55,6 +89,7 @@ export const getEdges = (dataArray) => {
             ...data,
             source: data[TX_ATTR.senderAddr],
             target: data[TX_ATTR.receiverAddr],
+            color: "yellow"
         }
     })
 }

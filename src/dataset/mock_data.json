@@ -3,7 +3,7 @@
         "tx_id": "test1",
         "block_id": 1,
         "sender_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "receiver_address": "0x123",
         "type": "",
         "amount": 500,
         "confirm_time": 1632041600
@@ -12,7 +12,7 @@
         "tx_id": "test2",
         "block_id": 2,
         "sender_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "receiver_address": "EQD73OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
+        "receiver_address": "0x123",
         "type": "",
         "amount": 1000,
         "confirm_time": 1632041600
@@ -21,7 +21,7 @@
         "tx_id": "test3",
         "block_id": 3,
         "sender_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "receiver_address": "EQ3JAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
+        "receiver_address": "0x123",
         "type": "",
         "amount": 1500,
         "confirm_time": 1632041600
@@ -30,7 +30,7 @@
         "tx_id": "test4",
         "block_id": 4,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
+        "receiver_address": "0x123",
         "type": "",
         "amount": 2000,
         "confirm_time": 1632041600
@@ -39,7 +39,7 @@
         "tx_id": "test5",
         "block_id": 5,
         "sender_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "receiver_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 5883,
         "confirm_time": 1632041605
@@ -48,8 +48,8 @@
         "tx_id": "test6",
         "block_id": 6,
         "sender_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 7799,
         "confirm_time": 1632041610
     },
@@ -57,8 +57,8 @@
         "tx_id": "test7",
         "block_id": 7,
         "sender_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "receiver_address": "EQTT1P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 993,
         "confirm_time": 1632041615
     },
@@ -66,8 +66,8 @@
         "tx_id": "test8",
         "block_id": 8,
         "sender_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "receiver_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 628,
         "confirm_time": 1632041620
     },
@@ -75,8 +75,8 @@
         "tx_id": "test9",
         "block_id": 9,
         "sender_address": "EQCB2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 4440,
         "confirm_time": 1632041625
     },
@@ -84,8 +84,8 @@
         "tx_id": "test10",
         "block_id": 10,
         "sender_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "receiver_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 7605,
         "confirm_time": 1632041630
     },
@@ -93,8 +93,8 @@
         "tx_id": "test11",
         "block_id": 11,
         "sender_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 2644,
         "confirm_time": 1632041635
     },
@@ -102,17 +102,17 @@
         "tx_id": "test12",
         "block_id": 12,
         "sender_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
-        "receiver_address": "EQ3VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI7P",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 3270,
         "confirm_time": 1632041640
     },
     {
         "tx_id": "test13",
         "block_id": 13,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1412,
         "confirm_time": 1632041645
     },
@@ -120,7 +120,7 @@
         "tx_id": "test14",
         "block_id": 14,
         "sender_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 8107,
         "confirm_time": 1632041650
@@ -128,9 +128,9 @@
     {
         "tx_id": "test15",
         "block_id": 15,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "type": "2",
+        "type": "DEFI",
         "amount": 6529,
         "confirm_time": 1632041655
     },
@@ -138,7 +138,7 @@
         "tx_id": "test16",
         "block_id": 15,
         "sender_address": "EQTT1P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "receiver_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 9928,
         "confirm_time": 1632041660
@@ -147,8 +147,8 @@
         "tx_id": "test17",
         "block_id": 15,
         "sender_address": "EQ3VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI7P",
-        "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 1269,
         "confirm_time": 1632041665
     },
@@ -156,7 +156,7 @@
         "tx_id": "test18",
         "block_id": 15,
         "sender_address": "EQ6J2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V379N",
-        "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 2559,
         "confirm_time": 1632041670
@@ -165,8 +165,8 @@
         "tx_id": "test19",
         "block_id": 15,
         "sender_address": "EQ3VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI7P",
-        "receiver_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 8226,
         "confirm_time": 1632041675
     },
@@ -174,7 +174,7 @@
         "tx_id": "test20",
         "block_id": 15,
         "sender_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "receiver_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 6047,
         "confirm_time": 1632041680
@@ -183,7 +183,7 @@
         "tx_id": "test21",
         "block_id": 15,
         "sender_address": "EQCB2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "receiver_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 4641,
         "confirm_time": 1632041685
@@ -192,8 +192,8 @@
         "tx_id": "test22",
         "block_id": 15,
         "sender_address": "EQDJAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO572P",
-        "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 1630,
         "confirm_time": 1632041690
     },
@@ -201,7 +201,7 @@
         "tx_id": "test23",
         "block_id": 15,
         "sender_address": "EQ3JAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
-        "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 4048,
         "confirm_time": 1632041695
@@ -210,8 +210,8 @@
         "tx_id": "test24",
         "block_id": 15,
         "sender_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "receiver_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 8622,
         "confirm_time": 1632041700
     },
@@ -219,8 +219,8 @@
         "tx_id": "test25",
         "block_id": 15,
         "sender_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 7643,
         "confirm_time": 1632041705
     },
@@ -228,7 +228,7 @@
         "tx_id": "test26",
         "block_id": 15,
         "sender_address": "EQD73OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 3129,
         "confirm_time": 1632041710
@@ -237,8 +237,8 @@
         "tx_id": "test27",
         "block_id": 15,
         "sender_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "receiver_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 3044,
         "confirm_time": 1632041715
     },
@@ -246,8 +246,8 @@
         "tx_id": "test28",
         "block_id": 15,
         "sender_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "receiver_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 9924,
         "confirm_time": 1632041720
     },
@@ -255,8 +255,8 @@
         "tx_id": "test29",
         "block_id": 15,
         "sender_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "receiver_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 6763,
         "confirm_time": 1632041725
     },
@@ -264,8 +264,8 @@
         "tx_id": "test30",
         "block_id": 15,
         "sender_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 2460,
         "confirm_time": 1632041730
     },
@@ -273,7 +273,7 @@
         "tx_id": "test31",
         "block_id": 15,
         "sender_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "receiver_address": "EQ6J2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V379N",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 8872,
         "confirm_time": 1632041735
@@ -282,8 +282,8 @@
         "tx_id": "test32",
         "block_id": 15,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 1480,
         "confirm_time": 1632041740
     },
@@ -291,8 +291,8 @@
         "tx_id": "test33",
         "block_id": 15,
         "sender_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "receiver_address": "EQB41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO94R",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 1937,
         "confirm_time": 1632041745
     },
@@ -300,8 +300,8 @@
         "tx_id": "test34",
         "block_id": 15,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 9947,
         "confirm_time": 1632041750
     },
@@ -309,8 +309,8 @@
         "tx_id": "test35",
         "block_id": 15,
         "sender_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "receiver_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 6461,
         "confirm_time": 1632041755
     },
@@ -318,8 +318,8 @@
         "tx_id": "test36",
         "block_id": 15,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 6554,
         "confirm_time": 1632041760
     },
@@ -327,8 +327,8 @@
         "tx_id": "test37",
         "block_id": 15,
         "sender_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 4215,
         "confirm_time": 1632041765
     },
@@ -336,8 +336,8 @@
         "tx_id": "test38",
         "block_id": 15,
         "sender_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
-        "receiver_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 5900,
         "confirm_time": 1632041770
     },
@@ -345,8 +345,8 @@
         "tx_id": "test39",
         "block_id": 15,
         "sender_address": "EQD73OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "receiver_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 5867,
         "confirm_time": 1632041775
     },
@@ -354,7 +354,7 @@
         "tx_id": "test40",
         "block_id": 15,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 2536,
         "confirm_time": 1632041780
@@ -363,7 +363,7 @@
         "tx_id": "test41",
         "block_id": 15,
         "sender_address": "EQ3JAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
-        "receiver_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 603,
         "confirm_time": 1632041785
@@ -372,7 +372,7 @@
         "tx_id": "test42",
         "block_id": 15,
         "sender_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
-        "receiver_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 441,
         "confirm_time": 1632041790
@@ -381,8 +381,8 @@
         "tx_id": "test43",
         "block_id": 15,
         "sender_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
-        "receiver_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 2106,
         "confirm_time": 1632041795
     },
@@ -390,7 +390,7 @@
         "tx_id": "test44",
         "block_id": 15,
         "sender_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "receiver_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 2430,
         "confirm_time": 1632041800
@@ -399,8 +399,8 @@
         "tx_id": "test45",
         "block_id": 15,
         "sender_address": "EQB41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO94R",
-        "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 4557,
         "confirm_time": 1632041805
     },
@@ -408,8 +408,8 @@
         "tx_id": "test46",
         "block_id": 15,
         "sender_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 7920,
         "confirm_time": 1632041810
     },
@@ -417,8 +417,8 @@
         "tx_id": "test47",
         "block_id": 15,
         "sender_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 240,
         "confirm_time": 1632041815
     },
@@ -426,8 +426,8 @@
         "tx_id": "test48",
         "block_id": 15,
         "sender_address": "EQDJAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO572P",
-        "receiver_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 2609,
         "confirm_time": 1632041820
     },
@@ -435,8 +435,8 @@
         "tx_id": "test49",
         "block_id": 15,
         "sender_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 3162,
         "confirm_time": 1632041825
     },
@@ -444,7 +444,7 @@
         "tx_id": "test50",
         "block_id": 15,
         "sender_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "receiver_address": "EQ3VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI7P",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 5469,
         "confirm_time": 1632041830
@@ -453,8 +453,8 @@
         "tx_id": "test51",
         "block_id": 15,
         "sender_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
-        "receiver_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 7989,
         "confirm_time": 1632041835
     },
@@ -462,7 +462,7 @@
         "tx_id": "test52",
         "block_id": 15,
         "sender_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "receiver_address": "0x123",
         "type": "1",
         "amount": 3885,
         "confirm_time": 1632041840
@@ -471,8 +471,8 @@
         "tx_id": "test53",
         "block_id": 15,
         "sender_address": "EQDJAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO572P",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 174,
         "confirm_time": 1632041845
     },
@@ -481,7 +481,7 @@
         "block_id": 15,
         "sender_address": "EQB41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO94R",
         "receiver_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 1214,
         "confirm_time": 1632041850
     },
@@ -489,8 +489,8 @@
         "tx_id": "test55",
         "block_id": 15,
         "sender_address": "EQTT1P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 933,
         "confirm_time": 1632041855
     },
@@ -508,7 +508,7 @@
         "block_id": 15,
         "sender_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
         "receiver_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 8476,
         "confirm_time": 1632041865
     },
@@ -535,7 +535,7 @@
         "block_id": 15,
         "sender_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
         "receiver_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 8556,
         "confirm_time": 1632041880
     },
@@ -544,7 +544,7 @@
         "block_id": 15,
         "sender_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
         "receiver_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 1140,
         "confirm_time": 1632041885
     },
@@ -552,8 +552,8 @@
         "tx_id": "test62",
         "block_id": 15,
         "sender_address": "EQCB2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "3",
+        "receiver_address": "0x123",
+        "type": "GAMFI",
         "amount": 7373,
         "confirm_time": 1632041890
     },
@@ -562,7 +562,7 @@
         "block_id": 15,
         "sender_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
         "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 6092,
         "confirm_time": 1632041895
     },
@@ -571,7 +571,7 @@
         "block_id": 15,
         "sender_address": "EQSQQCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
         "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "2",
+        "type": "DEFI",
         "amount": 6345,
         "confirm_time": 1632041900
     },
@@ -598,7 +598,7 @@
         "block_id": 15,
         "sender_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
         "receiver_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "type": "2",
+        "type": "DEFI",
         "amount": 425,
         "confirm_time": 1632041915
     },
@@ -606,8 +606,8 @@
         "tx_id": "test68",
         "block_id": 15,
         "sender_address": "EQ6J2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V379N",
-        "receiver_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "2",
+        "receiver_address": "0x123",
+        "type": "DEFI",
         "amount": 2137,
         "confirm_time": 1632041920
     },
@@ -616,7 +616,7 @@
         "block_id": 15,
         "sender_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
         "receiver_address": "EQBS5G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
-        "type": "2",
+        "type": "DEFI",
         "amount": 3212,
         "confirm_time": 1632041925
     },
@@ -625,7 +625,7 @@
         "block_id": 15,
         "sender_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
         "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 6331,
         "confirm_time": 1632041930
     },
@@ -634,7 +634,7 @@
         "block_id": 15,
         "sender_address": "EQ6J2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V379N",
         "receiver_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1874,
         "confirm_time": 1632041935
     },
@@ -643,25 +643,25 @@
         "block_id": 15,
         "sender_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
         "receiver_address": "EQCB2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 5050,
         "confirm_time": 1632041940
     },
     {
         "tx_id": "test73",
         "block_id": 15,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQ3VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI7P",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1131,
         "confirm_time": 1632041945
     },
     {
         "tx_id": "test74",
         "block_id": 15,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 2533,
         "confirm_time": 1632041950
     },
@@ -679,7 +679,7 @@
         "block_id": 15,
         "sender_address": "EQB85G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE42",
         "receiver_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 4626,
         "confirm_time": 1632041960
     },
@@ -688,7 +688,7 @@
         "block_id": 15,
         "sender_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
         "receiver_address": "EQCB2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "2",
+        "type": "DEFI",
         "amount": 2476,
         "confirm_time": 1632041965
     },
@@ -697,7 +697,7 @@
         "block_id": 15,
         "sender_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
         "receiver_address": "EQ3WAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO57ZP",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1173,
         "confirm_time": 1632041970
     },
@@ -751,7 +751,7 @@
         "block_id": 15,
         "sender_address": "EQ6J2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V379N",
         "receiver_address": "EQTT1P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 6109,
         "confirm_time": 1632042000
     },
@@ -760,7 +760,7 @@
         "block_id": 15,
         "sender_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
         "receiver_address": "EQ985G8KQB1FV6Q2MA4Z1SRDZ5PL239Q68V9IV08DI43HE12",
-        "type": "2",
+        "type": "DEFI",
         "amount": 5590,
         "confirm_time": 1632042005
     },
@@ -778,7 +778,7 @@
         "block_id": 15,
         "sender_address": "EQS1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18BHU",
         "receiver_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "type": "2",
+        "type": "DEFI",
         "amount": 2474,
         "confirm_time": 1632042015
     },
@@ -787,7 +787,7 @@
         "block_id": 15,
         "sender_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
         "receiver_address": "EQ5NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPP8P",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 4788,
         "confirm_time": 1632042020
     },
@@ -796,14 +796,14 @@
         "block_id": 15,
         "sender_address": "EQDD3OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
         "receiver_address": "EQD73OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZEN4",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 982,
         "confirm_time": 1632042025
     },
     {
         "tx_id": "test90",
         "block_id": 15,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
         "type": "1",
         "amount": 1863,
@@ -814,7 +814,7 @@
         "block_id": 15,
         "sender_address": "EQ1AEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
         "receiver_address": "EQ4XF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
-        "type": "2",
+        "type": "DEFI",
         "amount": 3539,
         "confirm_time": 1632042035
     },
@@ -841,7 +841,7 @@
         "block_id": 15,
         "sender_address": "EQT41P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
         "receiver_address": "EQDJAF3KND3L691PTDHDWJB2WDIC1IX9SLL9YQHICAUO572P",
-        "type": "2",
+        "type": "DEFI",
         "amount": 9258,
         "confirm_time": 1632042050
     },
@@ -859,7 +859,7 @@
         "block_id": 15,
         "sender_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
         "receiver_address": "EQZ1QCQS5TZZ34IX51NHOW6RO7KKIRR9QZT780HHVMX18B3U",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 5978,
         "confirm_time": 1632042060
     },
@@ -868,7 +868,7 @@
         "block_id": 15,
         "sender_address": "EQTT1P0EHSF6E82DLHWB24ECVD3Y5JPLT4M0YAHL991HO9IR",
         "receiver_address": "EQ773OCNPT0RZYFIEBCTBF5HOJ3XAXL75XTFFI8BPZ1PZE04",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1430,
         "confirm_time": 1632042065
     },
@@ -884,9 +884,9 @@
     {
         "tx_id": "test99",
         "block_id": 15,
-        "sender_address": "EQ4NF3GK6HOSFQ2JZ674Y8SOTCHY9V7X7KDWHYAA4EWQPPTP",
+        "sender_address": "0x123",
         "receiver_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "2",
+        "type": "DEFI",
         "amount": 1187,
         "confirm_time": 1632042075
     },
@@ -895,7 +895,7 @@
         "block_id": 15,
         "sender_address": "EQ1VEFZVSKJDYMKRAQP3JEU55R9MT5N4G1AIR32N5RPMZI6P",
         "receiver_address": "EQCJ2LGFLK2M5O7EQPMO91ROLXXZ64MUFBK16ZQ4TL5V378N",
-        "type": "3",
+        "type": "GAMFI",
         "amount": 5091,
         "confirm_time": 1632042080
     }

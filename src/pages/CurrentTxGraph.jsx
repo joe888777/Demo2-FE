@@ -17,7 +17,7 @@ const CurrentTransaction = () => {
     return (
         <div className="w-full">
             <SliderComponent />
-            <TempGraph data={txData}/>
+            <TempGraph data={txData} uid="tx"/>
         </div>
     )
     

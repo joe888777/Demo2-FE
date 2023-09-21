@@ -1,5 +1,7 @@
 import { TARGET_URL } from '../core/setting';
 
+
+
 const parse = (dataArray) => {
     return dataArray.map(data=>{
         return {
@@ -25,4 +27,17 @@ export const getFilteredNodes = async (amount) => {
     console.log(data);
     console.log("data");
     return parse(data);
+}
+export const getNodeInfos = async () => {
+    let data = "";
+    await fetch(`${TARGET_URL}node_info`)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (myJson) {
+        data = myJson;
+    });
+    console.log("GGGG")
+    console.log(data);
+    return data;
 }

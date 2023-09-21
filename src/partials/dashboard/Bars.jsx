@@ -29,7 +29,7 @@ function SliderComponent() {
         onMouseUp={handleSliderBlur}
         onChange={handleSliderChange}
       />
-       <span className='text-center w-full mr-auto ml-auto mt-2 block'>{sliderValue}</span>
+       <span className='text-center w-full mr-auto ml-auto mt-2 block'>{state}</span>
     </div>
   );
 }
