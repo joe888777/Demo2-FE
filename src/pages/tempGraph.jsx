@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { getNodes, getEdges, getFormattedNodeLabel } from '../utils/graph';
 import { graphMetaAtomF } from '../core/atom';
 import { useRecoilState } from 'recoil';
+import * as THREE from 'three';
 
 const TempGraph = (props) => {
     const [good, setgood] =  useRecoilState(graphMetaAtomF(props.uid));
@@ -80,6 +81,25 @@ const TempGraph = (props) => {
             onLinkClick={(link) => {
                 window.open(`https://tonviewer.com/transaction/${link.tx_id}`, "_blank")
             }}
+            nodeThreeObject={(node) => {
+                const size = (node.level+1)*2;
+                return new THREE.Mesh(
+                    [
+                    new THREE.BoxGeometry(size, size,size),
+                    new THREE.ConeGeometry(size, size*2),
+                    new THREE.CylinderGeometry(size, size, size*2),
+                    new THREE.DodecahedronGeometry(size),
+                    new THREE.SphereGeometry(size),
+                    new THREE.TorusGeometry(size, size*2),
+                    new THREE.TorusKnotGeometry(size, size*2)
+                    ][(node.type === "GAMEFI" ? 1 : node.type === "DEFI" ? 2 : 4) % 5],
+                    new THREE.MeshLambertMaterial({
+                        color: node.color,
+                        transparent: true,
+                        opacity: 1
+                    }))
+                }
+            }
             // dagMode='zin'
             />
         </div>
