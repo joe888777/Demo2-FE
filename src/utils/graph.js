@@ -110,3 +110,6 @@ export const getEdges = (dataArray) => {
     return res;
 
 }
+export const getFormattedNodeLabel = (node) => {
+    return node.url ? node.id : `${node.id.substr(0,8)}`;
+}

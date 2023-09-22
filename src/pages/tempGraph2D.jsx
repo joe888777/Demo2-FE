@@ -1,7 +1,7 @@
 import MOCK_DATA from '../dataset/mock_data.json';
 import { ForceGraph2D } from 'react-force-graph';
 import { useState, useEffect, useRef } from 'react';
-import { getNodes, getEdges } from '../utils/graph';
+import { getNodes, getEdges, getFormattedNodeLabel } from '../utils/graph';
 import { getNodeInfos } from '../utils/api';
 import { graphMetaAtomF } from '../core/atom';
 import {useRecoilState }from "recoil";
@@ -17,7 +17,6 @@ const TempGraph = (props) => {
 
     useEffect(() => {
         const nodes = getNodes(props.data);
-        console.log(nodes)
         setgood({
             tx_amount_max: props.data.reduce((prev, curr) => {
                 if (curr.amount > prev) {
@@ -45,8 +44,6 @@ const TempGraph = (props) => {
             nodes: getNodes(props.data),
             links: getEdges(props.data)     
         });
-        console.log("good");
-        console.log(good);
         }, [props.data])
     return (
         <div className='relative p-4 sm:p-6 rounded-sm overflow-hidden mr-auto ml-auto w-10/12 '>
@@ -63,7 +60,7 @@ const TempGraph = (props) => {
             linkColor={() => "aqua"}
             linkWidth={1}
             linkOpacity={1}
-            nodeLabel={node => (`${node.id.substr(0,6)}`)}
+            nodeLabel={getFormattedNodeLabel}
             nodeVal={node=>node.level*5}
             linkLabel={link => link.amount}
             linkDirectionalArrowLength={()=>2}

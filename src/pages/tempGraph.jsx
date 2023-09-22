@@ -1,7 +1,7 @@
 import MOCK_DATA from '../dataset/mock_data.json';
 import { ForceGraph3D } from 'react-force-graph';
 import { useState, useEffect } from 'react';
-import { getNodes, getEdges } from '../utils/graph';
+import { getNodes, getEdges, getFormattedNodeLabel } from '../utils/graph';
 import { graphMetaAtomF } from '../core/atom';
 import { useRecoilState } from 'recoil';
 
@@ -62,7 +62,7 @@ const TempGraph = (props) => {
             linkOpacity={1}
             linkCurvature={.1}
             nodeVal={node=>node.level*5}
-            nodeLabel={node => (`${node.id.substr(0,6)}}`)}
+            nodeLabel={getFormattedNodeLabel}
             linkLabel={link => link.amount}
             linkDirectionalArrowLength={()=>2}
             linkDirectionalArrowWidth={()=>1}
